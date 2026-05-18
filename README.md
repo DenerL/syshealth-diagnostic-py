@@ -1,2 +1,34 @@
 # infra-data-collector
 Ferramenta de automação para diagnóstico de hardware, rede e segurança em ambientes Windows utilizando Python e PowerShell.
+
+# 🛠️ SysHealth Diagnostic Tool
+
+Ferramenta de automação desenvolvida para otimizar o suporte técnico e a coleta de telemetria em parques tecnológicos Windows.
+
+## 📋 O Problema
+Em ambientes de suporte, o diagnóstico manual de hardware e rede é lento e descentralizado. Máquinas com lentidão por falta de reboot, desgaste de SSD ou latência de rede impactam diretamente na produtividade da operação.
+
+## 💡 A Solução
+Um script robusto que atua como um orquestrador de dados, utilizando Python para gerenciar execuções de baixo nível via PowerShell (WMI/CIM). A ferramenta consolida informações críticas em segundos, permitindo uma tomada de decisão rápida baseada em dados reais.
+
+## 🚀 Funcionalidades Técnicas
+
+Ranking de Processos: Identificação de "vilões" de memória RAM usando psutil.
+
+Saúde de Disco: Monitoramento de vida útil de SSDs (Wear Leveling) e espaço em disco.
+
+Telemetria de Energia: Lógica de cascata para detectar saúde de bateria e status da fonte em notebooks e desktops.
+
+Análise de Rede: Teste de latência média (ping) para isolar problemas de infraestrutura.
+
+Segurança: Verificação de privilégios de administradores locais e status do antivírus.
+
+## 🛠️ Tecnologias Utilizadas
+
+Python 3.x (Lógica principal e tratamento de dados)
+
+PowerShell/WMI (Interface com o hardware)
+
+Regex (Limpeza e extração de dados brutos)
+
+Bibliotecas: psutil, subprocess, ctypes
