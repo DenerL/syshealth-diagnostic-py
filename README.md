@@ -1,4 +1,4 @@
-# infra-data-collector
+# syshealth-diagnostic-py
 Ferramenta de automação para diagnóstico de hardware, rede e segurança em ambientes Windows utilizando Python e PowerShell.
 
 # 🛠️ SysHealth Diagnostic Tool
