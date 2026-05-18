@@ -32,3 +32,13 @@ PowerShell/WMI (Interface com o hardware)
 Regex (Limpeza e extração de dados brutos)
 
 Bibliotecas: psutil, subprocess, ctypes
+
+## 📊 Casos de Uso (Data Insights)
+Este script não é apenas para suporte, ele é a base para:
+- **Gestão de Ativos:** Identificar máquinas que precisam de upgrade de RAM ou SSD.
+- **Prevenção de Downtime:** Detectar SSDs com alto nível de desgaste antes que falhem.
+- **Segurança de Dados:** Auditar quem são os administradores locais de cada máquina.
+
+## 🚀 Como Executar
+1. Instale as dependências: `pip install -r requirements.txt`
+2. Execute com privilégios de Administrador: `python src/Saude_hardware.py`
