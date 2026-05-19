@@ -42,3 +42,7 @@ Este script não é apenas para suporte, ele é a base para:
 ## 🚀 Como Executar
 1. Instale as dependências: `pip install -r requirements.txt`
 2. Execute com privilégios de Administrador: `python src/Saude_hardware.py`
+
+## 🖥️ Demonstração do Terminal
+ <img width="969" height="488" alt="Captura de tela 2026-05-19 092632" src="https://github.com/user-attachments/assets/1a0ec29d-3e04-4c3f-bf8e-1bfc593967b5" />
+
