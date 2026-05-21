@@ -31,8 +31,10 @@ The project is structured into two independent modules based on the deployment r
 
 ### Local Diagnostics:
 ```bash
-python local_tool/diagnostico_local.py
+python local_tool/diagnostico_local.py 
 
+Data Pipeline (Ingestion & Visualization):
+Bash
 # 1. Initialize the database
 python data_pipeline/criar_banco.py
 
