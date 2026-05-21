@@ -32,3 +32,13 @@ The project is structured into two independent modules based on the deployment r
 ### Local Diagnostics:
 ```bash
 python local_tool/diagnostico_local.py
+
+# 1. Initialize the database
+python data_pipeline/criar_banco.py
+
+# 2. Capture and ingest current telemetry data
+python data_pipeline/capturar_dados.py
+
+# 3. View historical database records
+python data_pipeline/visualizar_dados.py
+To check my latest code updates, contributions, and project repositories, please navigate to the Repositories tab above.
