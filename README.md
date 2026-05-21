@@ -29,18 +29,22 @@ The project is structured into two independent modules based on the deployment r
 
 ## 🚀 How to Run
 
-### Local Diagnostics:
-```bash
-python local_tool/diagnostico_local.py 
+### 🛠️ Local Diagnostics
 
-Data Pipeline (Ingestion & Visualization):
-Bash
-# 1. Initialize the database
-python data_pipeline/criar_banco.py
+Execute the following command to run the on-site diagnostic tool:
 
-# 2. Capture and ingest current telemetry data
-python data_pipeline/capturar_dados.py
+* **Command:** `python local_tool/diagnostico_local.py`
 
-# 3. View historical database records
-python data_pipeline/visualizar_dados.py
-To check my latest code updates, contributions, and project repositories, please navigate to the Repositories tab above.
+---
+
+### 🗄️ Data Pipeline (Ingestion & Visualization)
+
+Follow these steps in order to initialize, ingest, and check the database:
+
+1. **Initialize the database:** `python data_pipeline/criar_banco.py`
+2. **Capture and ingest data:** `python data_pipeline/capturar_dados.py`
+3. **View historical records:** `python data_pipeline/visualizar_dados.py`
+
+---
+
+*To check my latest code updates, contributions, and project repositories, please navigate to the **Repositories** tab above.*
